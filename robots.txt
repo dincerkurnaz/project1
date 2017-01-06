@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: 
+Host: quictransfer.com
+
+Sitemap: http://quictransfer.com/sitemap.xml

@@ -1,0 +1,60 @@
+95.85.48.124:80 {
+	tls off
+	redir https://quictransfer.com{uri}
+	header / Server Quictransfer.com
+}
+quictransfer.com
+gzip
+pprof
+header / {
+Server Quictransfer.com
+Cache-Control "max-age=1728000"
+-x-powered-by 
+}
+root /web
+rewrite  {
+  r ^/uploaded/(\w+)/?$
+  to /uploaded.php?filecode={1}
+}
+
+rewrite {
+  r ^/error/(\w+)/?$
+  to /error.php?error={1}
+}
+
+rewrite {
+	r ^/download/(\w+)/?$
+	to /download.php?filecode={1}
+}
+
+rewrite {
+	r ^/check-stats/?$
+	to /check-stats.php
+}
+
+rewrite {
+	r ^/stats/(\w+)/?$
+	to /stats.php?statscode={1}
+}
+
+fastcgi / /var/run/php5-fpm.sock php 
+#fastcgi / /var/run/hhvm/hhvm.sock php
+
+#errors visible
+log logs/access.log {
+      rotate {
+        size      50
+        age       7
+        keep      5
+      }
+    }
+ 
+errors {
+404 404.html       
+log logs/error.log {
+        size      50
+        age       7
+        keep      5
+}
+}
+

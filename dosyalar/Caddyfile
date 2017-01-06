@@ -1,0 +1,12 @@
+quic.dincersalihkurnaz.com
+gzip
+header / {
+Server Quic
+Cache-Control "max-age=86400"
+}
+fastcgi / /var/run/php5-fpm.sock php
+root /web
+browse /download ./download.tpl
+rewrite {
+to {path} {path}/ /index.php&{query}
+}
