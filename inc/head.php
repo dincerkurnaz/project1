@@ -5,8 +5,7 @@
         <meta name="author" content="Quic Transfer">
 <meta name="yandex-verification" content="25467a22b1d12070" />
         <link rel="canonical" href="https://quictransfer.com/" />
-        <meta name="description" content="New generation Quic Protocol Files Upload and Download Technology Quic Transfer.">
-        <meta name="keywords" content="share big files, secure file upload, file upload site, big file upload, file sharing, difference between download and upload speed">
+        <meta name="description" content="QuicTransfer New generation use Quic Protocol Files Upload and Download Technology">
         <meta name="keywords" content="WeTransfer alternative to QuicTransfer send big files email large files send large files send large files free send large file transfer large files"/>
         <meta name="robots" content="all"/>
 	<link rel="icon" type="image/x-icon" href="/media/img/favicon.ico"/><title><?php echo $mysql->get_setting('site_title'); ?></title>

@@ -112,7 +112,7 @@ $_pageheader = 1;
 	
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script>
 		<?php
 		//$extensions = $mysql->get_setting('allowed_extensions');
@@ -131,10 +131,5 @@ $_pageheader = 1;
 	</script>
 	<script src="media/js/filex.init.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5856fd84ced78618"></script> 
-<h1><span itemprop="name">Quictransfer</span> Simple and easy-to-use no-registration upload and sharing of files.</h1>
-<h2>Beta usage, files are deleted after 1 days.</h2>
-<h3>We use the Quic protocol, so We Love Google Chrome Browser</h3>
-<h4>New generation Quic Protocol Upload and Download Technology Quictransfer.</h4>
-<h5>QUIC (Quick UDP Internet Connections, pronounced quick) Transfer</h5>
 </body>
 </html>

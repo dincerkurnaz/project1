@@ -1,7 +1,12 @@
 95.85.48.124:80 {
 	tls off
 	redir https://quictransfer.com{uri}
-	header / Server Quictransfer.com
+        header / -Hidden
+}
+www.quictransfer.com:80 {
+        tls off
+        redir https://quictransfer.com{uri}
+        header / -Hidden
 }
 quictransfer.com
 gzip

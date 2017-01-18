@@ -58,23 +58,6 @@ $_pageheader = 2;
 		</form>
 	</section>
 	
-	<!-- Third Container / Information -->
-	<section class="container-fluid information">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 column text-center">
-					1250 Uploaded Files
-				</div>
-				<div class="col-xs-4 column text-center">
-					300 Downloads
-				</div>
-				<div class="col-xs-4 column text-center">
-					245 Expired Files
-				</div>
-			</div>
-		</div>
-	</section>
-	
 	<!-- Footer -->
 	<footer class="container-fluid text-center">
 		<p>All Rights Reserved. - Our site can not be held responsible for any damages that may arise from the use of content on our site.</p>
