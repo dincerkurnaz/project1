@@ -2,36 +2,26 @@
 <span itemscope itemtype="http://schema.org/SoftwareApplication">
 	<nav class="navbar navbar-static-top">
 		<!-- Container -->
-		<div class="container">
+		<div class="containers">
 			<div class="navbar-header">
 				<!-- Toggle Button first -->
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
-					<!-- For Screen Readers -->
-					<span class="sr-only">Toggle Navigation</span>
-					
-					<!-- Icon bars -->
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				
-				<a class="navbar-brand" href="<?php echo $mysql->get_setting('site_url'); ?>"><img itemprop="image" src="media/img/filex@3x.svg" alt="Quictransfer" height="170%" /></a>
+				<a class="navbar-brand" href="<?php echo $mysql->get_setting('site_url'); ?>"><img itemprop="image" src="media/img/filex@3x.svg" alt="File Sharing" height="170%" /> <span>Beta - V2</span></a> 
 			</div>
 			
 			<!-- Navigation Links -->
-			<div class="collapse navbar-collapse" id="navigation">
-				<ul class="nav navbar-nav navbar-right">
+			<div class="nrml_menu">
+				<ul class="right_menu">
 					<?php
 					if(isset($_pageheader) && $_pageheader == 1)
-						echo '<li class="active"><a href="'.$mysql->get_setting('site_url').'index.php">UPLOAD</a></li>';
+						echo '<li class="active"><a href="'.$mysql->get_setting('site_url').'index.php">File Sharing</a></li>';
 					else
-						echo '<li><a href="'.$mysql->get_setting('site_url').'index.php">UPLOAD</a></li>';
+						echo '<li><a href="'.$mysql->get_setting('site_url').'index.php">File Sharing</a></li>';
 						
 					if($mysql->get_setting('allow_stats') == '1') {
 						if(isset($_pageheader) && $_pageheader == 2)
-							echo '<li class="active"><a href="'.$mysql->get_setting('site_url').'check-stats/">CHECK STATS</a></li>';
+							echo '<li class="active"><a style="border:0px;" href="'.$mysql->get_setting('site_url').'check-stats/">Check Stats</a></li>';
 						else
-							echo '<li><a href="'.$mysql->get_setting('site_url').'check-stats/">CHECK STATS</a></li>';
+							echo '<li><a style="border:0px;" href="'.$mysql->get_setting('site_url').'check-stats/">Check Stats</a></li>';
 					}
 					?>
 				</ul>

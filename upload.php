@@ -13,9 +13,21 @@ if($mysql->is_banned($_SERVER['REMOTE_ADDR'])) {
 }
 
 //$days = $_POST['days'];
-$days = 1;
-$downloads = $_POST['downloads'];
-$password = $_POST['password'];
+$days = 7;
+$downloads = '';
+$password = '';
+
+if(isset($_POST['downloads']))
+   $downloads = $_POST['downloads'];
+
+if(isset($_POST['password']))
+    $password = $_POST['password'];
+
+if(isset($_GET['downloads']))
+   $downloads = $_POST['downloads'];
+
+if(isset($_GET['password']))
+    $password = $_POST['password'];
 
 if($days != '' && !is_numeric($days))
 	die('no');

@@ -1,0 +1,31 @@
+/* 
+    Created on : Jan 6, 2014, 11:30:38 PM
+    Author     : Masud Afsar <masud.afsar@live.com>
+*/
+
+
+.randbg {
+background: url('../images/bg5-min.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.randbg.bg1 {
+background-image: url('../images/bg2-min.jpg');
+}
+.randbg.bg2 {
+background-image: url('../images/bg8-min.jpg');
+}
+.randbg.bg3 {
+background-image: url('../images/bg3-1-min.jpg');
+}
+.randbg.bg4 {
+background-image: url('../images/bg5-min.jpg');
+}
+.randbg.bg5 {
+background-image: url('../images/bg6-min.jpg');
+}
+.randbg.bg6 {
+background-image: url('../images/bg7-min.jpg');
+}

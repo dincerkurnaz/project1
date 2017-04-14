@@ -37,7 +37,7 @@ $stats_url = $siteurl.'stats/'.$statscode;
 <!DOCTYPE html>
 <html>
 <?php require 'inc/head.php'; ?>
-<body>
+<body class="randbg">
 	<?php require 'inc/header.php'; ?>
 	
 	<!-- Fourth Container -->
@@ -70,7 +70,7 @@ $stats_url = $siteurl.'stats/'.$statscode;
 	</section>
 	
 	<!-- Third Container / Information -->
-	<section class="container-fluid information">
+	<section style="position:absolute; bottom:40px; width:100%;" class="container-fluid information">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-4 column text-center">
@@ -116,14 +116,18 @@ $stats_url = $siteurl.'stats/'.$statscode;
 ?>
 	
 	<!-- Footer -->
-	<footer class="container-fluid text-center">
+	<footer class="footer_mns">
 		<?php echo $mysql->get_setting('footer_info'); ?>
 	</footer>
-	
-	
+
 	<!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="media/bootstrap/js/bootstrap.min.js"></script>
+	<script src="media/js/rand.bg.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(".randbg").RandBG();
+</script>	
+	
 	<script type="text/javascript">
 		$('document').ready(function() {
 			$('button[name=select-all]').click(function(evt) {

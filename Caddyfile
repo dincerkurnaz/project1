@@ -13,6 +13,10 @@ gzip
 pprof
 header / {
 Server Quictransfer.com
+Strict-Transport-Security "max-age=31536000;"
+X-XSS-Protection "1; mode=block"
+X-Content-Type-Options "nosniff"
+X-Frame-Options "DENY"
 Cache-Control "max-age=1728000"
 -x-powered-by 
 }
@@ -41,9 +45,11 @@ rewrite {
 	r ^/stats/(\w+)/?$
 	to /stats.php?statscode={1}
 }
-
-fastcgi / /var/run/php5-fpm.sock php 
+internal /dev/null
+#fastcgi / /var/run/php5-fpm.sock php 
+#fastcgi / 127.0.0.1:9000 php 
 #fastcgi / /var/run/hhvm/hhvm.sock php
+fastcgi / /run/php/php7.1-fpm.sock php
 
 #errors visible
 log logs/access.log {
