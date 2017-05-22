@@ -12,6 +12,7 @@ $_pageheader = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="alternate" href="https://quictransfer.com/" hreflang="en"/>
 <?php require 'inc/head.php'; ?>
 <body class="randbg">
 	<?php require 'inc/header.php'; ?>

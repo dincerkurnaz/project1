@@ -16,6 +16,7 @@ _atrk_opts = { atrk_acct:"B9NMo1IWx8104B", domain:"quictransfer.com",dynamic: tr
     <meta property="og:description" content="With Quic Transfer you can send large files to anyone, no registration needed!" />
     <meta property="og:site_name" content="Quic Transfer" />
 <meta name="yandex-verification" content="25467a22b1d12070" />
+<meta name="p:domain_verify" content="b71984ad7f7d4ba3ae3e15e292ede051"/>
 <meta name="Author" content="file sharing">
 <meta name="Robots" content="index, follow">
 <meta name="msvalidate.01" content="A527E53242058E99DA8A7C37EA195C12" />

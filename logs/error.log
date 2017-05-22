@@ -1,3 +1,153 @@
-14/Apr/2017:07:50:21 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
-14/Apr/2017:07:50:54 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
-14/Apr/2017:07:51:41 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
+21/Apr/2017:21:25:34 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+22/Apr/2017:06:19:25 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+22/Apr/2017:07:10:54 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+22/Apr/2017:10:23:21 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
+22/Apr/2017:10:23:21 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
+22/Apr/2017:10:23:23 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
+22/Apr/2017:10:23:23 +0000 [ERROR 502 /upload.php] RST_STREAM received with code 6
+22/Apr/2017:11:36:28 +0000 [ERROR 502 /] NetworkIdleTimeout: No recent network activity.
+22/Apr/2017:22:35:15 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+23/Apr/2017:08:22:36 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+23/Apr/2017:11:50:52 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+24/Apr/2017:05:54:52 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+24/Apr/2017:09:24:08 +0000 [ERROR 502 /download.php] http2: stream closed
+24/Apr/2017:15:06:25 +0000 [ERROR 502 /download.php] http2: stream closed
+24/Apr/2017:15:07:08 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->107.20.5.123:57664: write: connection reset by peer
+24/Apr/2017:20:05:13 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->185.20.6.14:39436: write: connection reset by peer
+25/Apr/2017:06:10:29 +0000 [ERROR 502 /] dial unix /run/php/php7.1-fpm.sock: connect: no such file or directory
+25/Apr/2017:07:08:11 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+26/Apr/2017:07:11:13 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+26/Apr/2017:10:37:47 +0000 [ERROR 502 /index.php] TooManyRtos: 5 consecutive retransmission timeouts
+26/Apr/2017:11:04:29 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/o3n3zmgujmarr68brwpgilqze.mp4 in /web/inc/filex.class.php on line 12
+26/Apr/2017:19:23:45 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+27/Apr/2017:13:07:25 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:14:53:51 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:15:00:50 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:19:30:50 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+27/Apr/2017:20:49:56 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:21:57:50 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:21:59:54 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:22:02:04 +0000 [ERROR 502 /download.php] http2: stream closed
+27/Apr/2017:22:04:36 +0000 [ERROR 502 /download.php] http2: stream closed
+28/Apr/2017:00:46:27 +0000 [ERROR 0 /sqlite/main.php] Primary script unknown
+28/Apr/2017:00:46:27 +0000 [ERROR 0 /SQLite/SQLiteManager-1.2.4/main.php] Primary script unknown
+28/Apr/2017:00:46:28 +0000 [ERROR 0 /SQLiteManager-1.2.4/main.php] Primary script unknown
+28/Apr/2017:00:46:28 +0000 [ERROR 0 /sqlitemanager/main.php] Primary script unknown
+28/Apr/2017:00:46:28 +0000 [ERROR 0 /SQlite/main.php] Primary script unknown
+28/Apr/2017:00:46:28 +0000 [ERROR 0 /SQLiteManager/main.php] Primary script unknown
+28/Apr/2017:00:46:29 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+28/Apr/2017:00:46:29 +0000 [ERROR 0 /wordpress/wp-login.php] Primary script unknown
+28/Apr/2017:00:46:30 +0000 [ERROR 0 /wp/wp-login.php] Primary script unknown
+28/Apr/2017:00:46:30 +0000 [ERROR 0 /blog/wp-login.php] Primary script unknown
+28/Apr/2017:00:46:30 +0000 [ERROR 0 /Wordpress/wp-login.php] Primary script unknown
+28/Apr/2017:00:46:31 +0000 [ERROR 0 /Blog/wp-login.php] Primary script unknown
+28/Apr/2017:05:55:44 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+28/Apr/2017:12:57:56 +0000 [ERROR 502 /download.php] http2: stream closed
+28/Apr/2017:15:01:10 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+28/Apr/2017:17:13:31 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->4.79.123.2:32470: write: connection reset by peer
+28/Apr/2017:18:29:55 +0000 [ERROR 0 /upload.php] PHP message: PHP Fatal error:  Uncaught Error: Call to undefined method Filex_Mysql::delete_file_entry() in /web/upload.php:131
+Stack trace:
+#0 {main}
+  thrown in /web/upload.php on line 131
+29/Apr/2017:00:40:34 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+29/Apr/2017:05:24:45 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+29/Apr/2017:11:30:57 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+29/Apr/2017:17:27:55 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+29/Apr/2017:17:44:41 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+29/Apr/2017:18:46:25 +0000 [ERROR 502 /download.php] http2: stream closed
+30/Apr/2017:03:51:39 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+30/Apr/2017:18:31:52 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+30/Apr/2017:18:31:52 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+01/May/2017:10:35:18 +0000 [ERROR 0 /print.php] Primary script unknown
+01/May/2017:17:33:58 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:35:24 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:35:46 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:36:01 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:36:28 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:37:28 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->46.197.61.56:15194: write: broken pipe
+01/May/2017:17:38:17 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:38:17 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:39:14 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:39:53 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->213.74.31.114:44202: write: connection reset by peer
+01/May/2017:17:39:58 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:42:58 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:43:48 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:44:14 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:44:14 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:44:14 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:46:15 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:46:57 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.5.148.41:8339: write: broken pipe
+01/May/2017:17:47:05 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:47:45 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:47:51 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:48:38 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:48:39 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:48:44 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:49:43 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:49:50 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:51:28 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:51:32 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:30113: write: broken pipe
+01/May/2017:17:51:34 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:29888: write: broken pipe
+01/May/2017:17:51:35 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:51:35 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:29889: write: broken pipe
+01/May/2017:17:51:37 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:51:37 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:30155: write: broken pipe
+01/May/2017:17:51:40 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:51:40 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:29773: write: broken pipe
+01/May/2017:17:51:41 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->95.2.11.110:29775: write: broken pipe
+01/May/2017:17:51:42 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:52:39 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:52:57 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:54:43 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:17:55:08 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:17:56:53 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:17:59:41 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:00:52 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->176.43.142.220:39776: write: broken pipe
+01/May/2017:18:06:13 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:09:05 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->149.154.167.164:48416: write: connection reset by peer
+01/May/2017:18:13:21 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:14:29 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:18:19:52 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:22:00 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:26:04 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:27:08 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:28:01 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:29:37 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->81.214.30.110:13230: write: connection timed out
+01/May/2017:18:29:50 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:18:29:50 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:18:31:09 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->69.63.188.103:21142: write: connection reset by peer
+01/May/2017:18:31:09 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->31.13.114.55:57028: write: connection reset by peer
+01/May/2017:18:36:23 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:43:03 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:49:34 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->85.248.227.164:34403: write: connection reset by peer
+01/May/2017:18:55:40 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:55:42 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:18:56:19 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->176.232.130.45:55744: write: connection reset by peer
+01/May/2017:19:08:27 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:19:08:50 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:19:09:37 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->78.174.26.219:56513: write: connection reset by peer
+01/May/2017:19:12:30 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bjyy541djwkujlkqml9zg1oia.torrent in /web/inc/filex.class.php on line 12
+01/May/2017:19:46:55 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->31.155.137.121:19923: write: broken pipe
+01/May/2017:19:54:46 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->78.164.40.195:38242: write: broken pipe
+01/May/2017:19:59:15 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:03:06 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:20:03:43 +0000 [ERROR 502 /download.php] NetworkIdleTimeout: No recent network activity.
+01/May/2017:20:04:11 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:11:35 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:13:48 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+01/May/2017:20:14:32 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:21:04 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:21:40 +0000 [ERROR 502 /download.php] http2: stream closed
+01/May/2017:20:21:51 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->78.185.18.12:49799: write: connection reset by peer
+02/May/2017:06:25:06 +0000 [ERROR 502 /download.php] RST_STREAM received with code 6
+02/May/2017:06:31:12 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->213.254.241.5:11074: write: broken pipe
+02/May/2017:08:34:45 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->50.112.194.65:59028: write: connection reset by peer
+02/May/2017:08:34:58 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->50.112.194.65:52684: write: connection reset by peer
+02/May/2017:09:11:44 +0000 [ERROR 502 /download.php] http2: stream closed
+02/May/2017:14:01:07 +0000 [ERROR 0 /stats.php] PHP message: PHP Warning:  filesize(): stat failed for uploads/bmqu3f0mayakjes27jaa075in.zip in /web/inc/filex.class.php on line 12
+02/May/2017:15:10:09 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->117.78.13.58:47744: write: broken pipe
+02/May/2017:18:06:52 +0000 [ERROR 502 /download.php] http2: stream closed
+03/May/2017:06:06:28 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->50.112.194.65:3130: write: connection reset by peer
+03/May/2017:06:07:19 +0000 [ERROR 502 /download.php] write tcp 95.85.48.124:443->52.27.2.86:45666: write: connection reset by peer
+03/May/2017:06:51:36 +0000 [ERROR 0 /wp-login.php] Primary script unknown
+04/May/2017:13:21:04 +0000 [ERROR 502 /] dial unix /run/php/php7.1-fpm.sock: connect: no such file or directory

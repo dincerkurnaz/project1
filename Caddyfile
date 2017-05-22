@@ -50,22 +50,23 @@ internal /dev/null
 #fastcgi / 127.0.0.1:9000 php 
 #fastcgi / /var/run/hhvm/hhvm.sock php
 fastcgi / /run/php/php7.1-fpm.sock php
+errors errors.log
 
 #errors visible
 log logs/access.log {
-      rotate {
-        size      50
-        age       7
-        keep      5
-      }
+      #rotate{ 
+      #  size      50
+      #  age       7
+      #  keep      5
+      #}
     }
  
 errors {
 404 404.html       
-log logs/error.log {
-        size      50
-        age       7
-        keep      5
+#log logs/error.log {
+       # size      50
+       # age       7
+       # keep      5
 }
 }
 

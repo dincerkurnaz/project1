@@ -112,8 +112,7 @@ $_pageheader = 1;
 	<!-- First Container -->
 	<section class="first-container" id="fine-uploader-manual-trigger">
 		<div class="row">
-			<label for="fileinput" class="over-container">
-           <div class="upload_satir right-text"> 
+           <div  id="fine-uploader-trg" class="upload_satir right-text"> 
             <div class="uploadico left-icon1"> 
 				<i class="fa fa-plus" aria-hidden="true"></i>
 			</div>
@@ -125,8 +124,7 @@ $_pageheader = 1;
          <div class="right-text uploads_name"> 
          <p></p>
          </div>
-         </label>
-         	<form method="post" action="index.php" name="upload">
+   	   <form method="post" action="index.php" name="upload">
        <div class="dvs_ortalik">
 
 						<div class="hkacgund">
@@ -274,15 +272,15 @@ $(".randbg").RandBG();
 	
 	<script>
 	
-	    var days = $('input[name=days]').val();
+	   // var days = $('input[name=days]').val();
         var downloads = $('input[name=downloads]').val();
         var password = $('input[name=password]').val();
 		
         var manualUploader = new qq.FineUploader({
-            element: document.getElementById('fine-uploader-manual-trigger'),
+            element: document.getElementById('fine-uploader-trg'),
             template: 'qq-template-manual-trigger',
             request: {
-                endpoint: '/upload2.php?days='+days+'&downloads='+downloads+'&password='+password+''
+                endpoint: '/upload2.php?downloads='+downloads+'&password='+password+''
             },
             thumbnails: {
                 placeholders: {
@@ -302,7 +300,7 @@ $(".randbg").RandBG();
         });
 
         qq(document.getElementById("trigger-upload")).attach("click", function() {
-			days = $('input[name=days]').val();
+			//days = $('input[name=days]').val();
 			downloads = $('input[name=downloads]').val();
 			password = $('input[name=password]').val();
             manualUploader.uploadStoredFiles();
