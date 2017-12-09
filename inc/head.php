@@ -12,7 +12,7 @@ _atrk_opts = { atrk_acct:"B9NMo1IWx8104B", domain:"quictransfer.com",dynamic: tr
         <meta name="author" content="Quic Transfer">
     <meta property="og:image" content="https://quictransfer.com/media/img/filex@3x.svg" />
     <meta property="og:url" content="https://quictransfer.com" />
-    <meta property="og:title" content="File Share, File Sharing, File Transfer, File Upload" />
+    <meta property="og:title" content="<?php if(isset($download_url)){ echo $download_url; } else {echo "File Share, File Sharing, File Transfer, File Upload";} ?>" />
     <meta property="og:description" content="With Quic Transfer you can send large files to anyone, no registration needed!" />
     <meta property="og:site_name" content="Quic Transfer" />
 <meta name="yandex-verification" content="25467a22b1d12070" />
@@ -27,8 +27,8 @@ _atrk_opts = { atrk_acct:"B9NMo1IWx8104B", domain:"quictransfer.com",dynamic: tr
 <meta name="twitter:image" content="https://quictransfer.com/media/img/filex@3x.svg">
 <meta name="twitter:image:alt" content="File Sharing">
         <link rel="canonical" href="https://quictransfer.com/" />
-        <meta name="description" content="WeTransfer Alternatives Quic Transfer. file-sharing send large files to anyone, no registration needed!">
-        <meta name="keywords" content="Free File Sharing,Send Big Files,WeTransfer alternative to QuicTransfer"/>
+        <meta name="description" content="We Transfer Alternatives Quic Transfer. File transferring">
+        <meta name="keywords" content="send files, file transferring, free file transfer, we transfer"/>
         <meta name="robots" content="all"/>
 	<link rel="icon" type="image/x-icon" href="/media/img/favicon.ico"/><title><?php echo $mysql->get_setting('site_title'); ?></title>
 	<!-- Load Bootstrap -->
@@ -37,6 +37,8 @@ _atrk_opts = { atrk_acct:"B9NMo1IWx8104B", domain:"quictransfer.com",dynamic: tr
 	<!-- Load Custom Style -->
 	<link rel="stylesheet" href="media/css/style.css" />
 	<link rel="stylesheet" href="media/css/<?php echo $mysql->get_setting('site_color'); ?>" />
+    <script src="media/js/clipboard.min.js"></script>
+
 	<!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet"> 
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>

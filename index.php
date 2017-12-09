@@ -26,7 +26,7 @@ $_pageheader = 1;
 				<i class="fa fa-plus" aria-hidden="true"></i>
 			</div>
 			<div class="uploadtext">
-            <h2>File Share Transfer</h2>
+            <h2>File Transfer</h2>
 				<h3>Send large files up to 20GB for free</h3>
 			</div>
          </div>
@@ -49,12 +49,11 @@ $_pageheader = 1;
 
 
                     </div>
-       <div class="alts"><button type="submit" class="btn btn-alt upload" >UPLOAD</button>
+       <div class="alts"><button type="submit" class="btn btn-alt upload" >File Transfer</button>
   	</form>
   </div>
   
          </div>
-	<div class="crm_yazi">We love Google Chrome!</div>
 		
 		<input type="file" name="fileinput" class="hide" id="fileinput" />
 	</section>
@@ -64,7 +63,9 @@ $_pageheader = 1;
 	<section style="position:absolute; bottom:40px; width:100%;" class="container-fluid information">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-4 column text-center">
+            <div class="col-xs-3 column text-center">
+            </div>
+				<div class="col-xs-3 column text-center">
 					<?php
 					$uploaded = $mysql->get_uploaded_files();
 					if($uploaded == 0)
@@ -73,7 +74,7 @@ $_pageheader = 1;
 						echo $uploaded;
 					?> Uploaded Files
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div class="col-xs-3 column text-center">
 					<?php
 					$downloads = $mysql->get_downloads();
 					if($downloads == 0)
@@ -82,7 +83,7 @@ $_pageheader = 1;
 						echo $downloads;
 					?> Downloads
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div style="display:none" class="col-xs-3 column text-center">
 					<?php
 					$expired = $mysql->get_expired_files();
 					if($expired == 0)
@@ -91,6 +92,9 @@ $_pageheader = 1;
 						echo $expired;
 					?> Expired Files
 				</div>
+                          <div class="col-xs-3 column text-center">
+            </div>  
+                
 			</div>
 		</div>
 	</section>

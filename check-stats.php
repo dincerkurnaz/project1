@@ -62,7 +62,9 @@ $_pageheader = 2;
 	<section style="position:absolute; bottom:40px; width:100%;" class="container-fluid information">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-4 column text-center">
+            <div class="col-xs-3 column text-center">
+            </div>
+				<div class="col-xs-3 column text-center">
 					<?php
 					$uploaded = $mysql->get_uploaded_files();
 					if($uploaded == 0)
@@ -71,7 +73,7 @@ $_pageheader = 2;
 						echo $uploaded;
 					?> Uploaded Files
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div class="col-xs-3 column text-center">
 					<?php
 					$downloads = $mysql->get_downloads();
 					if($downloads == 0)
@@ -80,7 +82,7 @@ $_pageheader = 2;
 						echo $downloads;
 					?> Downloads
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div style="display:none" class="col-xs-3 column text-center">
 					<?php
 					$expired = $mysql->get_expired_files();
 					if($expired == 0)
@@ -89,6 +91,9 @@ $_pageheader = 2;
 						echo $expired;
 					?> Expired Files
 				</div>
+                          <div class="col-xs-3 column text-center">
+            </div>  
+                
 			</div>
 		</div>
 	</section>

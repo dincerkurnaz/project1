@@ -5,7 +5,7 @@
 		<div class="containers">
 			<div class="navbar-header">
 				<!-- Toggle Button first -->
-				<a class="navbar-brand" href="<?php echo $mysql->get_setting('site_url'); ?>"><img itemprop="image" src="media/img/filex@3x.svg" alt="File Sharing" height="170%" /> <span>Beta - V2</span></a> 
+				<a class="navbar-brand" href="<?php echo $mysql->get_setting('site_url'); ?>"><img itemprop="image" src="media/img/filex@3x.svg" alt="File Transfer" height="170%" /> <span>Beta - V2</span></a> 
 			</div>
 			
 			<!-- Navigation Links -->
@@ -13,9 +13,9 @@
 				<ul class="right_menu">
 					<?php
 					if(isset($_pageheader) && $_pageheader == 1)
-						echo '<li class="active"><a href="'.$mysql->get_setting('site_url').'index.php">File Sharing</a></li>';
+						echo '<li class="active"><a href="'.$mysql->get_setting('site_url').'index.php">File Transfer</a></li>';
 					else
-						echo '<li><a href="'.$mysql->get_setting('site_url').'index.php">File Sharing</a></li>';
+						echo '<li><a href="'.$mysql->get_setting('site_url').'index.php">File Transfer</a></li>';
 						
 					if($mysql->get_setting('allow_stats') == '1') {
 						if(isset($_pageheader) && $_pageheader == 2)

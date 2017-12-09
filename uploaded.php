@@ -36,10 +36,16 @@ $stats_url = $siteurl.'stats/'.$statscode;
 ?>
 <!DOCTYPE html>
 <html>
+
+
 <?php require 'inc/head.php'; ?>
+
+
 <body class="randbg">
 	<?php require 'inc/header.php'; ?>
-	
+	<script type="text/javascript">
+var clipboard = new Clipboard('.copy-button');
+	</script>	
 	<!-- Fourth Container -->
 	<section class="container fourth-container">
 		<div class="success text-center">
@@ -50,16 +56,16 @@ $stats_url = $siteurl.'stats/'.$statscode;
 		<div class="download animate-first">
 			<span>DOWNLOAD URL</span>
 			<div class="input">
-				<input type="text" name="link" class="link" value="<?php echo $download_url; ?>" />
-				<button type="submit" name="select-all"><i class="fa fa-link"></i>SELECT LINK</button>
+				<input type="text" name="link" id="dwncopy" class="link" value="<?php echo $download_url; ?>" />
+				<button class="copy-button" type="submit" data-clipboard-action="copy" data-clipboard-target="#dwncopy" name="select-all"><i class="fa fa-link"></i>COPY LINK</button>
 			</div>
 		</div>
 		
 		<div class="download animate-second">
 			<span>STATS URL</span>
 			<div class="input">
-				<input type="text" name="link" class="link" value="<?php echo $stats_url; ?>" />
-				<button type="submit" name="select-all"><i class="fa fa-link"></i>SELECT LINK</button>
+				<input type="text" name="link" id="sttcopy" class="link" value="<?php echo $stats_url; ?>" />
+				<button class="copy-button" type="submit" data-clipboard-action="copy" data-clipboard-target="#sttcopy" name="select-all"><i class="fa fa-link"></i>COPY LINK</button>
 			</div>
 			<p class="small">
 				Use this link to take a look at your file stats.
@@ -73,7 +79,9 @@ $stats_url = $siteurl.'stats/'.$statscode;
 	<section style="position:absolute; bottom:40px; width:100%;" class="container-fluid information">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-4 column text-center">
+            <div class="col-xs-3 column text-center">
+            </div>
+				<div class="col-xs-3 column text-center">
 					<?php
 					$uploaded = $mysql->get_uploaded_files();
 					if($uploaded == 0)
@@ -82,7 +90,7 @@ $stats_url = $siteurl.'stats/'.$statscode;
 						echo $uploaded;
 					?> Uploaded Files
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div class="col-xs-3 column text-center">
 					<?php
 					$downloads = $mysql->get_downloads();
 					if($downloads == 0)
@@ -91,7 +99,7 @@ $stats_url = $siteurl.'stats/'.$statscode;
 						echo $downloads;
 					?> Downloads
 				</div>
-				<div class="col-xs-4 column text-center">
+				<div style="display:none" class="col-xs-3 column text-center">
 					<?php
 					$expired = $mysql->get_expired_files();
 					if($expired == 0)
@@ -100,6 +108,9 @@ $stats_url = $siteurl.'stats/'.$statscode;
 						echo $expired;
 					?> Expired Files
 				</div>
+                          <div class="col-xs-3 column text-center">
+            </div>  
+                
 			</div>
 		</div>
 	</section>
@@ -137,5 +148,22 @@ $(".randbg").RandBG();
 		});
 	</script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5856fd84ced78618"></script> 
+<script type="text/javascript">
+	var addthis_config = {ui_email_note:"<?php echo $download_url; ?>"};
+   /* var addthis_share =
+	{
+		email_template: "Empty"
+	};*/
+</script>
+	
+<script type="text/javascript">
+	var addthis_share = {
+	   url: "<?=$siteurl?>",
+	   title: "A friend sent you a file with Quictransfer.com.",
+	   description: "THE DESCRIPTION",
+	   media: ""
+	}
+</script>
+	
 </body>
 </html>
